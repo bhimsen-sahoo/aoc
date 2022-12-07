@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # def data
-#   file = File.open('input.txt')
+#   file = File.open('aoc2021/day3/input.txt')
 #   file.readlines.map(&:strip).map { |number| number.chars.map(&:to_i) }
 # end
 
@@ -30,7 +30,7 @@ require 'matrix'
 
 class BinaryDiagnostic
   def data
-    file = File.open('input.txt')
+    file = File.open('aoc2021/day3/input.txt')
     file.readlines.map(&:strip).map(&:chars).map { |i| i.map(&:to_i) }
   end
 

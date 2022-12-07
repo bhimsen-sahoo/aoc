@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def data
-  file = File.open('test_input.txt')
+  file = File.open('aoc2021/day1/input.txt')
   file.read.split
 end
 

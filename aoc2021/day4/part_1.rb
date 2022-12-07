@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require 'matrix'
 def data
-  file = File.open('input.txt')
+  file = File.open('aoc2021/day4/input.txt')
   file.read.strip.split("\n\n")
 end
 

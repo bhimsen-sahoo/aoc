@@ -26,7 +26,7 @@
 #   "5,5 -> 8,2"
 # ]
 def data
-  File.open('input.txt').read.split("\n")
+  File.open('aoc2021/day5/input.txt').read.split("\n")
 end
 
 # output:

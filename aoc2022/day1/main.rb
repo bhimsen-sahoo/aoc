@@ -23,6 +23,6 @@ class CalorieCounter
   end
 end
 
-counter = CalorieCounter.new(File.open('data.txt').read)
+counter = CalorieCounter.new(File.open('aoc2022/day1/data.txt').read)
 puts counter.heighest_calories
 puts counter.top_n_totals(3)

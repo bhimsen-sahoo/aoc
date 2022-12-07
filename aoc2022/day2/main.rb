@@ -54,6 +54,6 @@ class RockPaperScissor
   end
 end
 
-play = RockPaperScissor.new(File.open('data.txt').readlines)
+play = RockPaperScissor.new(File.open('aoc2022/day2/data.txt').readlines)
 puts play.part1
 puts play.part2
