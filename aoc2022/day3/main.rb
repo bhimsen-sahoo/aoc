@@ -17,7 +17,7 @@ class RucksackOrganizer
     data
       .map(&:strip)
       .each_slice(3)
-      .map { |group| group[0].chars & group[1].chars & group[2].chars }
+      .map { |group| group.map(&:chars).reduce(&:&) }
       .flatten
       .map { |char| assigned_digit(char) }
       .sum
